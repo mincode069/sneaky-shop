@@ -1,0 +1,20 @@
+.Cart {
+  position: relative;
+  font-size: 20px;
+  cursor: pointer;
+  &__number {
+    font-size: 15px;
+    position: absolute;
+    top: -6px;
+    right: -4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(70, 66, 66);
+    color: white;
+    border-radius: 50%;
+    font-weight: 700;
+  }
+}

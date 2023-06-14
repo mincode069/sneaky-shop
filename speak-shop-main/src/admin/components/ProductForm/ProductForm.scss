@@ -1,0 +1,43 @@
+.show__images{
+display: flex;
+width: 100%;
+margin-top: 10px;
+
+}
+.img__side{
+    width: 40%;
+}
+.img {
+    max-height: 300px;
+    background-size: cover;
+        margin-right: 30px;
+}
+.form__img{
+    max-height: 400px;
+    overflow: auto;
+    width: 100%;
+    margin-right: 30px;
+}
+.input__side{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+.button__form{
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 5px;
+    height: 32px;
+    margin-right: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    background-color: #F5F5F5;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #555;
+}

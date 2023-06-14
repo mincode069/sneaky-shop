@@ -1,0 +1,102 @@
+$primary-color: #78cccd;
+$secondary-color: #dddddd;
+
+.DetailProduct__container {
+  width: 1050px;
+  margin: auto;
+}
+
+.DetailProduct {
+  display: flex;
+  width: 100%;
+
+  &__loading {
+    width: 100%;
+    height: 60vh;
+  }
+
+  &__title {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  &__images {
+    width: 300px;
+    border-radius: 8px;
+    margin-right: 30px;
+  }
+
+  &__info {
+    flex: 1;
+    padding: 20px;
+    font-weight: 700;
+
+    css Copy code &-title {
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
+
+    &-price {
+      color: red;
+      font-size: 25px;
+      margin-bottom: 20px;
+    }
+
+    &-description {
+      margin-bottom: 20px;
+    }
+
+    &-category {
+      cursor: pointer;
+
+      &:hover {
+        color: $primary-color;
+        text-decoration: underline;
+      }
+    }
+  }
+
+  &__button {
+    outline: none;
+    padding: 8px 25px;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 6px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 80px;
+  }
+
+  &__description {
+    position: relative;
+    border: 1px solid $secondary-color;
+    border-radius: 10px;
+    padding: 40px 20px 20px;
+    width: 100%;
+    margin: 50px 0 50px;
+  }
+
+  &__space {
+    height: 50px;
+    width: 100%;
+    border-top: 1px solid $secondary-color;
+  }
+
+  &__suggested {
+    border-top: 1px solid $secondary-color;
+    position: relative;
+    padding: 30px 0;
+
+    css Copy code &__h4 {
+      position: absolute;
+      top: -15px;
+      background-color: #fff;
+      padding: 0 10px;
+      left: 20px;
+    }
+  }
+}

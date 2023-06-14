@@ -1,0 +1,13 @@
+.Banner {
+  margin-bottom: 30px;
+  &_image {
+    width: 100%;
+    border-radius: 4px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .Banner {
+    display: none;
+  }
+}

@@ -1,0 +1,53 @@
+.Footer__container {
+  padding: 30px;
+  width: 100%;
+  border-radius: 6px;
+  background-color: black;
+  color: white;
+  margin-top: 20px;
+}
+
+.Footer__information {
+  display: grid;
+  grid-template-columns: 25% 25% 14% 18% 18%;
+  h4 {
+    margin: 10px 0;
+    font-size: medium;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  h5 {
+    font-size: 16px;
+    color: #ef9608;
+    margin: 5px 0;
+  }
+}
+
+.Footer__input {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  input {
+    width: 60%;
+    padding: 6px 0;
+    border: 1px solid white;
+  }
+
+  button {
+    border: 1px solid white;
+    padding: 6px 22px;
+    background-color: black;
+    color: white;
+  }
+}
+
+.Footer__copyright {
+  margin: 20px 0;
+  border-top: 1px solid white;
+  .p {
+    font-size: 13px;
+    margin-top: 0px;
+  }
+}

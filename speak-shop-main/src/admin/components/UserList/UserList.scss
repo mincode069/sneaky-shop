@@ -1,0 +1,26 @@
+.su__container {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 0;
+  border-bottom: 1px solid #000;
+  & > div {
+    width: 10%;
+    &:nth-child(2) {
+      width: 30%;
+    }
+
+    &:nth-child(3) {
+      width: 30%;
+    }
+
+    &:nth-child(4) {
+      width: 20%;
+    }
+
+    &:nth-child(5) {
+      width: 10%;
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+}
